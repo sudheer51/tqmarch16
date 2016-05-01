@@ -33,6 +33,7 @@ public class RetailMeNotTests {
 		if(browserType.equals("FF"))
 		{
 			driver =  new FirefoxDriver();
+			System.out.println("Opening the firefox browser");
 		}
 		else if(browserType.equals("IE"))
 		{
